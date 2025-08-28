@@ -1,0 +1,21 @@
+# ---- Core training/inference stack ----
+ultralytics>=8.3.0,<8.5
+torch>=2.2,<2.4               # MPS works on macOS 12.3+, Apple Silicon or Intel
+# torchvision is NOT required by your code
+
+# ---- Data / plotting ----
+numpy>=1.26,<2.0
+pandas>=2.2
+matplotlib>=3.8
+tensorboard>=2.14
+
+# ---- I/O / CV ----
+opencv-python>=4.9
+
+# ---- Dataset utilities ----
+roboflow>=1.1.28
+
+# ---- Nice-to-haves used implicitly by libs ----
+PyYAML>=6.0
+tqdm>=4.66
+

@@ -1,7 +1,7 @@
 task: detect
 mode: train
-model: runs_student_attention/y11_sgd/weights/best.pt
-data: /Users/khalid/DS_Projects/Capstone/Yolo_model_and_data/Student-Attention-Tracker-6/data.yaml
+model: runs/y11_sgd/weights/best.pt
+data: /Users/khalid/DS_Projects/Capstone/Yolo_model_and_data/Student-Attention-Tracker/data.yaml
 epochs: 15
 time: null
 patience: 8
@@ -12,7 +12,7 @@ save_period: -1
 cache: ram
 device: mps
 workers: 2
-project: runs_student_attention
+project: runs
 name: y11_sgd_finetune_ADAMW
 exist_ok: false
 pretrained: true
@@ -102,4 +102,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: runs_student_attention/y11_sgd_finetune_ADAMW
+save_dir: runs/y11_sgd_finetune_ADAMW
