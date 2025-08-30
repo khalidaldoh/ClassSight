@@ -1,9 +1,0 @@
-date,day_of_week,start_time,end_time,students_enrolled,avg_students_no,max_students_no,min_students_no,attendance_pct,avg_attention_rate,max_attention_rate,min_attention_rate,avg_distraction_rate,max_distraction_rate,min_distraction_rate
-
-2025-08-26,Tuesday,11:04,11:05,25,18,19,16,70,54,56,50,46,50,44
-2025-08-26,Tuesday,11:05,11:06,25,17,18,16,70,55,59,50,45,50,41
-2025-08-26,Tuesday,11:06,11:07,25,18,19,17,73,48,50,47,52,53,50
-2025-08-26,Tuesday,11:07,11:08,25,17,18,16,69,47,50,39,53,61,50
-2025-08-26,Tuesday,11:08,11:09,25,17,18,16,69,41,44,33,59,67,56
-2025-08-26,Tuesday,11:09,11:10,25,16,17,16,65,41,44,35,59,65,56
-2025-08-26,Tuesday,11:10,11:11,25,17,19,16,69,45,50,39,55,61,50
