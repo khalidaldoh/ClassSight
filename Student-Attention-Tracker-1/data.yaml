@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Attentive', 'Distracted']
+
+roboflow:
+  workspace: khalid-glpko
+  project: student-attention-tracker-96mmw
+  version: 8
+  license: Private
+  url: https://app.roboflow.com/khalid-glpko/student-attention-tracker-96mmw/8
